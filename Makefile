@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -Wpedantic -g -fsanitize=address
 INCLUDES = -Iinclude
 
 SRC = src/main.c src/tasklist.c
-TARGET = taskbox
+TARGET = build/taskbox
 
 all:
 	$(CC) $(CFLAGS) $(SRC) $(INCLUDES) -o $(TARGET)
