@@ -113,7 +113,7 @@ and does not generate any warnings.
 
   
 
-## Améliorations possibles
+## Potential improvement 
 - Use a hash table for O(1) access.
 - Implement automatic task sorting.
 - Add unit tests. 
